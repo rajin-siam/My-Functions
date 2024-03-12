@@ -8,7 +8,7 @@ bitset<mx>isPrime;
 vector<ll>primes;
 void primeGen(ll n)
 {
-    for(ll i=3;i<=n;i+=2)isPrime[i]=1;
+    for(ll i=2;i<=n;i+=2)isPrime[i]=1;
     ll sq=sqrt(n);
     for(ll i=3;i<=sq;i+=2)
     {
